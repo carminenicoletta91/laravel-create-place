@@ -1,0 +1,74 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+header,footer{
+  padding:50px 0;
+  background:black;
+  p{
+    color: white;
+    font-size:30px;
+    text-align: center;
+  }
+}
+.link{
+  width:150px;
+  margin:20px auto;
+  background:purple;
+  padding:10px 0;
+  border:solid 2px black;
+  border-radius: 10px;
+  text-align: center;
+  &:hover {
+    background:brown;
+  }
+  a{
+    text-decoration: none;
+    color:white;
+    width: 100%;
+  &:hover{
+    color:black;
+  }
+  }
+}
+.Container-Employees,.Container-Companies,.Container-Places{
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.box-Employees,.box-Companies,.box-Places{
+  padding:10px;
+  background:brown;
+  margin:10px;
+  p{
+    color:white;
+  }
+}
+.Add-Place{
+  padding:20px;
+  width:300px;
+  margin:20px auto;
+  border:2px solid gray;
+  border-radius:5px;
+  line-height:3;
+  text-align:center;
+  form label{
+    padding:0 20px ;
+  }
+  form input{
+    padding:5px;
+    width:150px;
+  }
+  #sv-button{
+    padding:10px 15px;
+    color:white;
+    background-color:purple;
+    border:none;
+    &:hover{
+      background-color:brown;
+      color:black;
+    }
+  }
+}
+//
